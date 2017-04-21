@@ -42,6 +42,10 @@ namespace Parcial3_Base
         /// <returns>La matriz suma</returns>
         public int[,] AddMatrix(int[,] matrixA, int[,] matrixB)
         {
+            int[,] (matrixA.GetLenght(0).matrixB.GetLenght(1));
+
+            if (matrixA.GetLength(0) ! = matrixB.GetLeght(0));
+
             int[,] result = null;
 
             if (result != null)
@@ -61,6 +65,13 @@ namespace Parcial3_Base
         /// <returns>La matriz producto por escalar</returns>
         public int[,] MultiplyMatrixByScalar(int[,] matrix, int scalar)
         {
+
+            int[,] = C (int = 0; 1 < matrix.GetLenght(0), 1++);
+
+                for (int i = 0; i < matrix.Getlenght(0); 1++);
+
+                    for (int 1 = 0; j = < matrix.Getlenght(1); j++);
+
             int[,] result = null;
 
             if (result != null)
@@ -80,7 +91,11 @@ namespace Parcial3_Base
         /// <returns>La matriz producto</returns>
         public int[,] MultiplyMatrices(int[,] matrixA, int[,] matrixB)
         {
-            int[,] result = null;
+            int[,] = C (int i = 0; i < matrixA.GetLength(0); i++)
+                
+               for (int i = 1; i < matrixB.GetLength(0); i++)
+
+                int[,] result = null;
 
             if (result != null)
             {
@@ -119,4 +134,6 @@ namespace Parcial3_Base
             return result;
         }
     }
-}
+
+
+
