@@ -1,0 +1,24 @@
+Punto 1(AddMatrix)
+* La validación es incorrecta. No se debe validar que las columnas sean diferentes. Por el contrario, las dimensiones deben ser iguales.
+* La inicialización de la matriz es incorrecta. Sintácticamente ni siquiera sigue la estructura [tipo identificador = valor].
+* La matriz 'result' nunca deja de ser nula; el algoritmo nunca ejecuta.
+* No hay nada que aplique la operación de suma de matrices.
+Total: 0.1 / 1.0
+
+Punto 2(MultiplyMatrixByScalar)
+* La inicialización de la matriz 'C' es incorrecta. Además, el algoritmo siempre devolverá 'result'
+* La matriz 'result' nunca deja de ser nula; el algoritmo nunca ejecuta.
+* La iteración era correcta, pero no hay nada que aplique el producto de matriz por escalar.
+Total: 0.1 / 1.0
+
+Punto 3(MultiplyMatrices)
+* La inicialización de la matriz 'C' es incorrecta. Además, el algoritmo siempre devolverá 'result'
+* La iteración propuesta está incompleta. Es correcto el primer paso, pero no hay nada más. Nada aplica la operación de producto matricial.
+* La matriz 'result' nunca deja de ser nula; el algoritmo nunca ejecuta.
+Total: 0.1 / 2.0
+
+Punto 4(MixMatrix)
+* No presenta solución
+Total: 0.0 / 1.0
+
+Total evaluación: 0.3 / 5.0
